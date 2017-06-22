@@ -1,0 +1,70 @@
+.stats-wrap{
+    width: 1000px;
+    height:auto;
+    margin-left: 10rem;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    float: left;
+}
+.stats-wrap-form{
+    width:390px;
+    height:290px;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    float: left;
+    position: relative;
+    border-width: 1px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px, rgba(0, 0, 0, 0.35) 0 0 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px, rgba(0, 0, 0, 0.35) 0 0 0;
+    -ms-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px, rgba(0, 0, 0, 0.35) 0 0 0;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px, rgba(0, 0, 0, 0.35) 0 0 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 0, rgba(0, 0, 0, 0.35) 0 0 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+
+}
+.widget-title{
+    width:288px;
+    height: 24px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin:2rem;
+}
+.title{
+    font-size: larger;
+}
+.widget-graph{
+    width:344px;
+    height:150px;
+    margin:2rem;
+    overflow: hidden;
+}
+.widget-title-outer{
+    width:340px;
+    height: 50px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin:2rem;
+}
+.video-text{
+    margin-left:6rem;
+    margin-top:20%;
+    font-size: 30px;
+}
+.video-number{
+    margin-left:15rem;
+
+    font-size: 30px;
+}
+.video-label{
+    width:320px;
+    height:100px;
+    margin:1rem;
+}

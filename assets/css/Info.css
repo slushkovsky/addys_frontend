@@ -1,0 +1,14 @@
+.info{
+    width: auto;
+    height:auto;
+    background-color: #fbf8e8;
+    margin-top: 10rem;
+}
+.ava{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+  margin-right: 1rem;
+    float: left;
+    background-color: aquamarine;
+}

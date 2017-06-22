@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="addysApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <!-- <link rel="stylesheet" href="assets/fonts/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link  href="assets/css/index.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+</head>
+<body >
+<script>
+    var app = angular.module('addysApp', []);
+    app.controller('projectsListCtrl', function($scope) {
+        $scope.projects = [
+            'Nike',
+            'NB',
+            'Adidass',
+            '1',
+            'dewjdewdewdewd',
+            'dewdewdwdwe',
+            'wqdwqdwqdd',
+            '4'
+        ];
+    });
+</script>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+
+        </div>
+    </div>
+</nav>
+<div class="col-md-9">
+    <div ng-controller="projectsListCtrl">
+
+    <a href="Info.html" class="form-link" ng-repeat="proj in projects">
+        <div class="Form1">
+            <div class="text">
+                <h2>{{ proj }}</h2>
+            </div>
+        </div>
+    </a>
+    </div>
+
+
+    <a href="#" class="form-link">
+    <div class="Form1">
+        <div class="text" id="add">
+            <h2 class="glyphicon glyphicon-plus"></h2>
+        </div>
+    </div>
+    </a>
+</div>
+</body>
+</html>
