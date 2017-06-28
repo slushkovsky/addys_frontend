@@ -30,28 +30,32 @@
 }
 .widget-title{
     width:288px;
-    height: 24px;
+    height: 22px;
     overflow: hidden;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    margin:2rem;
+    margin:1rem;
 }
+
 .title{
     font-size: larger;
 }
 .widget-graph{
     width:344px;
-    height:150px;
-    margin:2rem;
+    height:220px;
+    margin:1rem;
     overflow: hidden;
 }
 .widget-title-outer{
     width:340px;
-    height: 50px;
+    height: 10px;
     overflow: hidden;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    margin:2rem;
+
+    background-color: aqua;
+
+
 }
 .video-text{
     margin-left:6rem;
@@ -63,8 +67,17 @@
 
     font-size: 30px;
 }
-.video-label{
-    width:320px;
-    height:100px;
-    margin:1rem;
+.video-label {
+    width: 320px;
+    height: 100px;
+    margin: 1rem;
+   margin-top:10%;
+}
+
+#block2{
+display:none;
+}
+#block1:hover #block2{
+    display: block;
+    position: absolute;
 }
